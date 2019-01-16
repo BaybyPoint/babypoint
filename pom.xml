@@ -97,7 +97,9 @@
 			<version>2.9.7</version>
 		</dependency>
 		
-		<build>
+	</dependencies>
+	
+	<build>
 		<plugins>
 			<plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -121,7 +123,5 @@
         </plugin>
 		</plugins>
 	</build>
-
-	</dependencies>
 
 </project>
