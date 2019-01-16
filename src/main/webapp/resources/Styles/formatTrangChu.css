@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet');
+
+body{
+    font-family: Open Sans !important; 
+}
+
+#header{
+    background: linear-gradient(
+        rgba(0,0,0,0.42),
+        rgba(0,0,0,0.42)
+    ),
+    url("../Image/nenheaderTrangchu1.jpg") center center fixed ;
+     background-size: cover;  /*cÄƒn cho bá»©c áº£nh full mÃ n hÃ¬nh, cho dÃ¹ ko cÃ³ to báº±ng mÃ n hÃ¬nh */
+    height: 672px;
+    background-repeat: no-repeat;
+}
+.none-nav{
+    background: none !important;
+    border: none !important;
+}
+.circle-avartar{
+	width:42px;
+	height: 42px;
+	border-radius: 21px;
+	background: chocolate;
+	text-align: center;
+	padding: 6px !important;
+	font-size: 35px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+a.circle-avartar:hover{
+	width:42px !important;
+	height: 42px !important;
+	border-radius: 21px !important;
+	background: chocolate !important;
+	text-align: center !important;
+	padding: 6px !important;
+	font-size: 35px !important;
+	margin-top: 7px !important;
+	margin-bottom: 7px !important;
+}
+.navbar-center{
+    margin-left: 25% !important;
+}
+#yameshop1 img{
+    margin-top: 3px;
+}
+.navbar-nav a
+{
+    color: #06e4e4 !important;
+}
+.active > a{
+    color: aqua !important;
+    background: #3c3236 !important;
+    font-weight: bold;
+}
+.title{
+    color: pink;
+    font-family:'Dancing Script' ;
+    margin: 110px;
+    font-size: 80px;
+}
+
+.event_header{
+    margin-top: 100px;
+}
+.event_header > span{
+    color: white;
+    
+}
+.event_header button{
+    background: #56ff00;
+    color: white ;
+    border: aqua;
+}
+.dropdown-menu{
+    background: #3c3236;
+}
+#title-product{
+    margin-top: 72px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+#title-product-sanpham img{
+	height: 256px;
+     width: 177px;
+    margin-left: 5%; 
+}
+#title-product img{
+    height: 256px;
+    /* width: 200px;
+    margin-left: 8%; */
+}
+.product-name{
+	font-size: 19px;
+}
+.product{
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 12x;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.4);
+}
+.cost{
+    font-size: 24px;
+    color: red;
+
+}
+.format-thead{
+	font-size:24px;
+}
+.format-tensp{
+	font-size:30px;
+}
+.danhmuc-sanpham{
+	list-style-type:none; margin:0px 0; font-size: 19px; font-weight: 400;
+}
+.gioithieusanpham{
+	font-size: 24px;
+}
+.format-hinhsanphambosung{
+	margin-top:100px;
+	width: 300px;
+}
+#product-height{
+	height: 400px !important;
+}
+#product-height-product{
+	height: 385px;
+	}
+.hidden{
+	display: none;
+}
+/* ------------------ cháº¿ Ä‘á»™ Ä‘iá»‡n thoáº¡i ------------------------------------------------------------------------------- */
+@media (max-width: 575px) {
+	.title{
+        color: pink;
+        font-family:'Dancing Script' ;
+        margin: 110px;
+        font-size: 30px;
+    }
+    #product-height-product{
+	height: 245px;
+	}
+    .danhmuc-sanpham{
+	list-style-type:none; margin:0px 0; font-size: 15px; font-weight: 400;
+	}
+    #title-product{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    }
+    .product-name{
+	font-size: 15px;
+	font-weight: none;
+	}
+	#title-product-sanpham img {
+    height: 150px;
+    width: auto;
+    margin-left: 0%;
+	}
+	#product-height{
+	margin-left: 20px;
+	height: 230px !important;
+	width: 220px !important;
+	}
+    #title-product img{
+    height: 150px;
+	}
+    .navbar-center{
+        margin-left: 0 !important;
+    }
+    .cost{
+    font-size: 14px;
+    color: red;
+    padding: 0;
+	}
+	.format-tensp{
+	font-size:17px;
+	}
+	.format-thead{
+	font-size:16px;
+	}
+	.format-hinhsanphambosung{
+	margin-top:20px;
+	width: 300px;
+	}
+}
+@media (min-width:576px) and (max-width: 767px) {
+    .navbar-center{
+        margin-left: 0 !important;
+    }
+    #title-product img{
+    height: 120px; !important;
+	}
+	.cost{
+    padding: 0;
+	}
+}
+@media (min-width:768px) and  (max-width: 991px) {
+    .navbar-center{
+        margin-left: 0% !important;
+    }
+    .cost{
+    padding: 0;
+	}
+}
+/* ------------info------------------------------------------- */
+#info{
+    margin-top: 48px;
+}
+#info img{
+    height: 60px;
+}
+
+#info > span{
+    margin-top: 16px;
+}
+/* ----------------------san pham hot------------------------------------------- */
+
+
+/* ---------------footer----------------------------------------------- */
+#footer{
+    margin-top: 42px;
+    padding-bottom: 20px;
+    background: #3c3236;
+    color: white;
+}
+.title-footer{
+    font-size: 32px;
+    
+}
+
+.format-input {
+    width: 100%;
+    background: #5d4e4e;
+}
+.format-textarea {
+    width: 100%;
+    background: #5d4e4e;
+    margin-top: 8px;
+}
+.format-button{
+    margin-top: 8px;
+    width: 100%;
+    background: #252424;
+}
+
+.underline_a {
+	text-decoration: none;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

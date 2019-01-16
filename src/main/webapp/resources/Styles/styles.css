@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+
+#testthea{
+	font-size: 40px;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+
+#body-login{
+	background-color: #375e63;
+}
+#body-flex-login{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-content: center;
+}
+#container-login{
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+#container-login-left{
+	display: flex;
+	flex-direction: column;				/* cho 2 cÃ¡i div theo chiá»u dá»c  */
+	justify-content: space-between;    /* Äáº©y 2 cÃ¡i view(div), má»i Äá»©a 1 Äáº§u, nghÄ©a tiáº¿ng viá»t: khoáº£ng trá»ng á» giá»¯a */
+	width: 384px;
+	height: 610px;
+	background-color: blue;
+	background-image: url("../Image/nendangnhap.webp");
+	padding-left: 16px;
+}
+.header-login{
+	margin-top: 32px;
+}
+#header-left{
+	text-align: center;
+	color: white;
+}
+#header-bottom-left{
+	color: white;
+	margin-bottom: 64px;
+}
+#header-bottom-left span{
+	margin-left: 8px;
+}
+#text-logo{
+	font-size: 48px;
+}
+#hind-text-logo{
+	font-size: 12px;
+	opacity: 0.7;
+}
+.container-signup-form{
+	display: none;
+}
+#container-login-right{
+	flex: 1;
+	padding: 0 24px;
+	display: flex;
+	flex-direction:  column;
+	justify-content: space-between;
+}
+#header-top-right{
+	font-size: 20px;
+	color: gray;
+}
+.actived{
+	color: #DA7C79;
+	
+}
+#dangnhap , #dangki{
+	cursor: pointer;
+}
+#container-social-login{
+	margin-top: 180px;
+	margin-left:260px;
+}
+#container-center-login-right{
+	padding-top: 170px;
+}
+#container-center-login-right input[type=text]{ /* tÃ¬m tháº» input cÃ³ kiá»u nháº­p lÃ  text Äá» Ã¡p dá»¥ng */
+	margin-top: 8px;
+}
+#container-center-login-right input[type=submit]{ /* tÃ¬m tháº» input cÃ³ kiá»u nháº­p lÃ  submit Äá» Ã¡p dá»¥ng */
+	margin-top: 24px;
+	color: white;
+	font-size: 14px;
+}
+.material-textinput{
+	height: 38px;
+	boder: 0px;
+	background-color: #D8D8D8;
+	width: 100% !important;
+}
+.material-primary-button{
+	height: 38px;
+	boder: 0px;
+	background-color: #00909C;
+	width: 100% ;
+}
+.input-icon-email{
+	background: url("../image/mail.png") no-repeat scroll 16px 12px ;
+	height: 38px;
+	boder: 0px;
+	background-color: #D8D8D8;
+	padding-left: 42px;
+	width: 100% ;
+}
+.input-icon-password{
+	background: url("../image/mail.png") no-repeat scroll 16px 12px ;
+	height: 38px;
+	boder: 0px;
+	background-color: #D8D8D8;
+	width: 100%;
+	padding-left: 42px;
+}
+#ketqua{
+	text-align: right;
+	padding-top: 7px;
+	color: white;
+	font-size: 20px;
+	
+}
+.none-nav{
+	background: none;
+	border: none;
+}
+.none-nav a{
+	color: blue;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+

@@ -1,0 +1,154 @@
+body{
+    font-family: "Roboto" !important;
+}
+#header{
+    background: linear-gradient(
+        rgba(0,0,0,0.42),
+        rgba(0,0,0,0.42)
+    ),
+    url("../Image/nenheadertrangchu.png") center center fixed ;
+     background-size: cover;  /*cÄƒn cho bá»©c áº£nh full mÃ n hÃ¬nh, cho dÃ¹ ko cÃ³ to báº±ng mÃ n hÃ¬nh */
+    height: 672px;
+    background-repeat: no-repeat;
+}
+.none-nav{
+    background: none !important;
+    border: none !important;
+}
+.navbar-center{
+    margin-left: 25% !important;
+}
+#yameshop1 img{
+    margin-top: 5px;
+}
+.navbar-nav a
+{
+    color: #6da0a0 !important;
+}
+.active > a{
+    color: aqua !important;
+    background: #3c3236 !important;
+    font-weight: bold;
+}
+.event_header{
+    margin-top: 216px;
+}
+.event_header > span{
+    color: white;
+    
+}
+.event_header button{
+    background: #56ff00;
+    color: white ;
+    border: aqua;
+}
+.dropdown-menu{
+    background: #3c3236;
+}
+/* ------------------ cháº¿ Ä‘á»™ Ä‘iá»‡n thoáº¡i ------------------------------------------------------------------------------- */
+@media (max-width: 575px) {
+    .navbar-center{
+        margin-left: 0 !important;
+    }
+}
+@media (min-width:576px) and (max-width: 767px) {
+    .navbar-center{
+        margin-left: 0 !important;
+    }
+}
+@media (min-width:768px) and  (max-width: 991px) {
+    .navbar-center{
+        margin-left: 2% !important;
+    }
+}
+/* ------------info------------------------------------------- */
+#info{
+    margin-top: 48px;
+}
+#info img{
+    height: 60px;
+}
+
+#info > span{
+    margin-top: 16px;
+}
+/* ----------------------san pham hot------------------------------------------- */
+#title-product{
+    margin-top: 72px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+#title-product img{
+    height: 256px;
+}
+.product{
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 12x;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.4);
+}
+.cost{
+    font-size: 14px;
+    color: red;
+    padding-bottom: 16px;
+}
+/* ---------------footer----------------------------------------------- */
+#footer{
+    margin-top: 42px;
+    padding-bottom: 20px;
+    background: #3c3236;
+    color: white;
+}
+.title-footer{
+    font-size: 32px;
+    
+}
+
+.format-input {
+    width: 100%;
+    background: #5d4e4e;
+}
+.format-textarea {
+    width: 100%;
+    background: #5d4e4e;
+    margin-top: 8px;
+}
+.format-button{
+    margin-top: 8px;
+    width: 100%;
+    background: #252424;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
